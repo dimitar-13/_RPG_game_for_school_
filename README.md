@@ -1,2 +1,5 @@
 # _RPG_game_for_school_
-a little rpg game made for 4 days :}
+Rpg game where you can chose to play between 3 characters a wizzard,knight or elf that have there unique weapons.
+And you have to defeat every enemy in the dungeon in order to win and escape the dungeon.
+Do you think u can do it ?
+

@@ -9,7 +9,7 @@ namespace ConsoleApp1
     class Character
     {
         public int hp { get; set; }
-
+    
         public int dmg { get; set; }
         public string clas { get; set; }
         public int healing { get; set; }
@@ -23,8 +23,6 @@ namespace ConsoleApp1
             this.healing = he;
         }
 
-
-
         public void beingHit(int AttackPower)
         {
             hp -= AttackPower;
@@ -33,14 +31,21 @@ namespace ConsoleApp1
 
         public void Heal()
         {
-            hp += healing;
+            hp +=healing;
 
+
+        }
+
+
+        public void Addwepdmg(int wepdmg)
+        {
+            dmg += wepdmg;
 
         }
 
         public override string ToString()
         {
-            return ("You have picked the hero *" + clas + "* and he has " + hp + " hp, he deals " + dmg + " damage with his weapon and he can heal up to " + healing + " hp/health! ");
+            return ("You have picked the class " + clas + " he has " + hp + " hp and he deals " + dmg + " damage and he can heal up to " + healing + " hp/health! ");
         }
     }
 }
