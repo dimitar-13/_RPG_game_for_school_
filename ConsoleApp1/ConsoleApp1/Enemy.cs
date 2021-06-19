@@ -28,7 +28,7 @@ namespace ConsoleApp1
 
         public override string ToString()
         {
-            return ("You are facing an enemy with " + Enemyhp + " hp and it deals " + Enemydmg + " dmg!");
+            return ("You are facing an enemy with " + Enemyhp + " hp that deals " + Enemydmg + "dmg!");
         }
 
     }
