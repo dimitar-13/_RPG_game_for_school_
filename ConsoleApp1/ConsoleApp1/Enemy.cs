@@ -12,11 +12,13 @@ namespace ConsoleApp1
 
         public int Enemydmg { get; set; }
 
+        public int EnemyBounty { get; set; }
 
-        public Enemy(int E, int D)
+        public Enemy(int E, int D,int B)
         {
             this.Enemyhp = E;
             this.Enemydmg = D;
+            this.EnemyBounty = B;
         }
 
 
@@ -28,7 +30,7 @@ namespace ConsoleApp1
 
         public override string ToString()
         {
-            return ("You are facing an enemy with " + Enemyhp + " hp that deals " + Enemydmg + "dmg!");
+            return ("enemy that has  " + Enemyhp + " hp and deals " + Enemydmg + "dmg!When the enemy dies you will recive "+EnemyBounty+" coins.");
         }
 
     }
